@@ -1,0 +1,13 @@
+{
+  "convex-mcp": {
+    "command": "npx",
+    "args": [
+      "-y",
+      "@convex-dev/mcp-server"
+    ],
+    "env": {
+      "CONVEX_DEPLOYMENT": "${CONVEX_DEPLOYMENT}",
+      "CONVEX_DEPLOY_KEY": "${CONVEX_DEPLOY_KEY}"
+    }
+  }
+}
